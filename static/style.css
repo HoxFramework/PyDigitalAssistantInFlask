@@ -1,0 +1,124 @@
+html {
+	font-family:Courier new;
+	background-image:url("kali.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size:cover;	
+}
+
+h1 {
+	margin-top:2px;
+	font-family:Helvetica;
+	margin-bottom:2px;
+	color:black;		
+	text-align:center;
+	background-image: linear-gradient(#F9FAFD , silver);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	font-size:25px;	
+
+}
+
+body {
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#212415;
+	margin-top:3%;
+	opacity:0.8;
+
+}
+.ad{
+	background-color:#212411;
+	color:#22FF2A;
+	display: flex;
+	float: left;
+	margin-left:10px;
+	clear:none;
+	display:inline-block;
+	width: 30%
+}
+
+.content{
+	background-color:#212411;
+	display: flex;
+	color:#22FF2A;
+	float: right;
+	margin-left:5px;
+	margin-right:10px;
+	clear:none;
+	display:inline-block;
+	width: 65%
+}
+
+.myButton {
+	margin-left:5px;
+	background-image: linear-gradient(#F9FAFD , silver);
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:1px;
+	border:1px solid silver;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:17px;
+	padding:6px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #white;
+}
+.obojaj {
+	background-image: linear-gradient(#F9FAFD , silver);
+	
+}
+.myButton:hover {
+	background-color:#C570CF;
+	color:black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.imagemid img{
+	width:100%;
+	
+}
+
+.imagemid p{
+	text-align:center;
+	font-family:Helvetica;
+
+}
+
+
+div.backgroundpic {
+  background: url(imageOne.png) no-repeat;
+  background-size:cover;
+  border: 1px solid white;
+  margin-top:5%;
+}
+ 
+div.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=40); 
+}
+ 
+div.transbox p {
+  margin: 15%;
+  font-weight: bold;
+  font-size:20;
+  color: #FF1E1E;
+}
+div.transbox a {
+  text-align:center;
+  font-weight: bold;
+  color: white;
+  margin-left:45%;
+}
+.maindiv {
+  color:white;
+}
